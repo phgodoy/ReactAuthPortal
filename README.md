@@ -1,39 +1,39 @@
 # ReactAuthPortal
 
-Bem-vindo ao projeto ReactAuthPortal! Este é um aplicativo React que foi criado com o propósito de servir como um projeto de estudo para aprimorar minhas habilidades em React.
+Welcome to the ReactAuthPortal project! This is a React application created for the purpose of serving as a study project to enhance my React skills.
 
-## Apresentação
+## Presentation
 
-Este projeto foi desenvolvido como parte do meu processo de aprendizado do React, onde explorei e implementei diversos conceitos e técnicas. Durante o desenvolvimento, pude aprofundar meu conhecimento em:
+This project was developed as part of my React learning process, where I explored and implemented various concepts and techniques. During development, I was able to deepen my knowledge in:
 
-- Componentes React
-- Roteamento com React Router
-- Estado e gerenciamento de estado com o useState e useContext
-- Integração de CSS e estilização
-- Interação com APIs externas
-- E muito mais!
+- React components
+- Routing with React Router
+- State and state management using useState and useContext
+- CSS integration and styling
+- Interaction with external APIs
+- And much more!
 
-## Como Iniciar o Projeto Localmente
+## How to Start the Project Locally
 
-1. Clone este repositório para o seu ambiente de desenvolvimento local:
-
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
-
-2. Navegue até o diretório do projeto:
+1. Clone this repository to your local development environment:
 
     ```bash
-    cd seu-repositorio
+    git clone https://github.com/phgodoy/ReactAuthPortal.git
     ```
 
-3. Instale as dependências do projeto usando npm:
+2. Navigate to the project directory:
+
+    ```bash
+    cd your-repository
+    ```
+
+3. Install the project's dependencies using npm:
 
     ```bash
     npm install
     ```
 
-4. Inicie o servidor de desenvolvimento:
+4. Start the development server:
 
     ```bash
     npm start
