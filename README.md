@@ -12,7 +12,7 @@ Este projeto foi desenvolvido como parte do meu processo de aprendizado do React
 - Integração de CSS e estilização
 - Interação com APIs externas
 - E muito mais!
-- 
+
 ## Como Iniciar o Projeto Localmente
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local:
