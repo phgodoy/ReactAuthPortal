@@ -4,10 +4,14 @@ import './LoginSignup.css';
 import person from '../Assets/person.png';
 import email from '../Assets/email.png';
 import password from '../Assets/password.png';
+import { toast } from 'react-toastify';
 
 const LoginSignup = () => {
-    const [action, setAction] = useState("Sign Up");
+    const [action, setAction] = useState("Sign Upteste");
 
+    function notify(){
+        toast.success('acesso no login');
+    }
     return (
         <div className="container">
             <div className="header">
@@ -32,7 +36,12 @@ const LoginSignup = () => {
                 <div className="forgot-password">Lost Password? <span>Click Here</span></div>
                 <div className="submit-container">
                     <button className={action === "Login" ? "login-button" : "sign-up-button"} onClick={() => setAction("Sign Up")}>Sign Up</button>
-                    <button className={action === "Sign Up" ? "sign-up-button" : "login-button"} onClick={() => setAction("Login")}>Login</button>
+                    <button className={action === "Sign Up" ? "sign-up-button" : "login-button"} onClick={() => {
+                        setAction("Login");
+                        if (action === "Login") {
+                            notify();
+                        }
+                    }}>Login</button>
                 </div>
             </div>
         </div>
