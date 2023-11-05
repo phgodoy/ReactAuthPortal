@@ -7,7 +7,7 @@ import password from '../Assets/password.png';
 import { toast } from 'react-toastify';
 
 const LoginSignup = () => {
-    const [action, setAction] = useState("Sign Up");
+    const [action, setAction] = useState("Sign Upteste");
 
     function notify(){
         toast.success('acesso no login');
